@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title> BlueOcean</title>
+	<link rel="icon" type="image/png" href="PollutionPics/icon-contaminacionweb168.png" />
+	<link rel="stylesheet" href="css/estilos.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="manifest" href="manifest.json">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<script src="js/script.js"></script>
+	<script src="js/vue.js"></script>
+	<script src="js/router/vue-router.js"></script>
+	
+</head>
+<body>
+<div id="app">
+<div id="contenedor">
+	
+
+	  <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+		<a class="navbar-brand" href="#">BlueOcean</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav text-white">
+			<ul class="navbar-nav text-center">
+				<li class="nav-item mx-3 my-2 font-weight-bold text-uppercase "><router-link to="/" exact>Home</router-link></li>
+				<li class="nav-item mx-3 my-2 font-weight-bold text-uppercase "><router-link to="/nosotros" exact> Sobre Nosotros</router-link></li>
+				<li class="nav-item mx-3 my-2 font-weight-bold text-uppercase "><router-link to="/contactos" exact> Contacto</router-link></li>
+				<li class="nav-item mx-3 my-2 font-weight-bold text-uppercase "><router-link to="/datos">Ver</router-link></li>
+				
+			  </ul>
+		  </div>
+		</div>
+	  </nav>
+	
+	
+
+
+
+				<router-view></router-view>
+		
+
+
+		
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark bg-dark text-white pt-4">
+
+
+	<div class="container text-center text-md-left">	 
+	  <div class="row">
+		<div class="col-md-4 mx-auto">
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">BlueOcean</h5>
+			  <p>BLueOcean © 2019. All rights reserved. Terms of Use and Privacy Policy </p> 
+		 		<p> Trabajo final de la materia de aplicaciones para dispositivos moviles.</p>
+  
+		</div>
+		
+  
+		<hr class="clearfix w-100 d-md-none">
+		<div class="col-md-4 mx-auto text-center">
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Teléfono</h5>
+			  <ul class="list-unstyled">
+				<li>
+					<p>(305)555-4465</p>
+				</li>
+		 	 </ul>
+		</div>
+		
+		<hr class="clearfix w-100 d-md-none">
+		<div class="col-md-4 mx-auto">
+		  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Correo</h5>
+		  	<ul class="list-unstyled">
+				<li>
+					<p>BLUEOCEAN@HOTMAIL.COM</p>
+				</li>
+		  	</ul>
+		</div>
+
+	  </div>
+	</div>
+
+	<hr>  
+<!-- redes  -->
+	<ul class="list-unstyled list-inline text-center">
+	  <li class="list-inline-item">
+		<a class="btn-floating btn-fb mx-1">
+		  <img src="PollutionPics/icons/instagram.png" alt="icono de instagram">
+		</a>
+	  </li>
+	  <li class="list-inline-item">
+		<a class="btn-floating btn-tw mx-1">
+			<img src="PollutionPics/icons/facebook.png" alt="icono de facebook">
+		</a>
+	  </li>
+	  <li class="list-inline-item">
+		<a class="btn-floating btn-gplus mx-1">
+			<img src="PollutionPics/icons/twitter.png" alt="icono de twitter">
+		</a>
+	  </li>
+	</ul>
+	<hr>
+
+	<div class="footer-copyright text-center py-3">
+				<p>dwm2a_bosz_cristian</p>
+	</div>
+  
+</footer>
+
+</div>
+</div>
+
+	<script src="componentes/editar.js"></script>
+	<script src="componentes/datos.js"></script>
+	<script src="componentes/nosotros.js"></script>
+	<script src="componentes/home.js"></script>
+	<script src="componentes/contactos.js"></script>
+	<script src="componentes/soluciones.js"></script>
+	<script src="componentes/evitar.js"></script>	
+	<script src="componentes/pastillas.js"></script>	
+	<script src="componentes/tipos.js"></script>	
+	<script src="componentes/tipo_fisico.js"></script>
+	<script src="componentes/tipo_quimico.js"></script>
+	<script src="componentes/tipo_biologico.js"></script>
+	<script src="componentes/banner.js"></script>
+	<script src="componentes/app.js"> </script>
+
+	
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

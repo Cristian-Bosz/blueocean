@@ -1,0 +1,145 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+.navbar-brand{
+  font-family: 'Courgette', cursive;
+  color: orange !important;
+}
+.navbar-nav a{
+  color: white !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../PollutionPics/icons/menu.png")!important;
+}
+header{
+  position: relative;
+}
+
+h2 {
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 1.80em !important;
+}
+h3{
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 1.60em !important;
+}
+p{ 
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+}
+.lead{
+	font-size: 18px !important;
+}
+
+
+#evitar{
+	list-style-image: url("../PollutionPics/icons/tic.png");
+}
+#soluciones{
+	list-style-image: url("../PollutionPics/icons/tic.png");
+}
+
+.pastillitas p{
+	font-size: 1.05em;
+}
+
+.video{
+  background-image: url("../PollutionPics/cleanwater.jpg");
+}
+.popup {
+  display: none;
+}
+
+
+
+
+@media screen and (min-width:991px) and (max-width:1630px){
+
+}
+
+
+@media screen and (min-width:780px) and (max-width:991px){
+  h1{
+    font-size: 2em !important;
+  }
+  .carousel-indicators{
+    display: none !important;
+  }
+
+}
+
+
+/*TABLET*/
+@media screen and (min-width:540px) and (max-width:780px){
+
+
+.anclas{
+	display: none;
+}
+h1{
+  font-size: 2em !important;
+}
+h2{
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 1.60em !important;
+
+}
+h3{
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 1.30em !important;
+}
+p{ 
+	font-family: "Open Sans",sans-serif;
+  font-size: 1.00em !important;
+}
+input{
+  width: 100%;
+}
+.carousel-indicators{
+  display: none !important;
+}
+
+}
+
+
+
+
+
+
+/*MOBILE*/
+@media screen and (min-width:320px) and (max-width:539px){
+
+h1{
+  font-size: 2em !important;
+}
+h2{
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 1.60em !important;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+h3{
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 1.30em !important;
+}
+p{ 
+	font-family: "Open Sans",sans-serif;
+	font-size: 1.00em !important;
+}
+
+.lead{
+  font-size: 1.00em !important;
+}
+
+input{
+  width: 100%;
+}
+
+.carousel-indicators{
+  display: none !important;
+}
+}
