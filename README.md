@@ -2,7 +2,7 @@
 
 
 
-El objetivo de este proeycto es la creación de una PWA realizada con vuejs 2.6.
+El objetivo de este proeycto es la creación de una PWA realizada con Vue.js 2.6.
 
 Requisitos/pauta:
 
